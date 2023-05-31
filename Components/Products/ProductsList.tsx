@@ -1,7 +1,7 @@
 import React from "react";
 import { Product, getProductsSelector, removeProduct } from "./Products.slice";
 import { useSelector } from "react-redux";
-import { useAppDispatch } from "./store.hooks";
+import { useAppDispatch } from "../../lib/store.hooks";
 import { getCartSelector, addToCart } from "../Cart/Cart.slice";
 
 const ProductsList: React.FC= () => {

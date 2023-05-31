@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { getCartSelector, getTotalPrice, removeFromCart } from "./Cart.slice";
-import { useAppDispatch } from "../Products/store.hooks";
+import { useAppDispatch } from "../../lib/store.hooks";
 
 const Cart: React.FC = () => {
   const cart = useSelector(getCartSelector);
